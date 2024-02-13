@@ -1,0 +1,35 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-light"  id="nav" [ngClass]="{'dark-nav': check()}">
+  <div class="container-fluid my-2">
+    <a [routerLink]="['/home']" routerLinkActive="active" id="brand" class="navbar-brand mx-3">
+      <img src="assets/img/LOGO_YL%202.png" alt="Youleader Logo" class="img-fluid" style="max-width: 150px;" *ngIf="check() == true">
+      <img src="assets/img/LOGO_YL%202.png" alt="Youleader Logo" class="img-fluid" style="max-width: 150px;" *ngIf="check() == false">
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse"
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle Navbar">
+  <span class="navbar-toggler-icon" ></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbar">
+  <div class="mx-auto"></div>
+      <ul class="navbar-nav text-end mx-3" id="lista">
+        <li>
+          <a [routerLink]="['/home']" routerLinkActive="active" class=" nav-link px-md-3">Inicio</a>
+        </li>
+        <li>
+          <a [routerLink]="['/experiencia']" routerLinkActive="active" class="nav-link px-md-3">Nuestra experiencia</a>
+        </li>
+        <li class="navbar-item dropdown">
+          <a [routerLink]="['/servicios']" routerLinkActive="active" id="drop" data-bs-toggle="dropdown" aria-expanded="false" class="nav-link px-md-3 dropdown-toggle">Plataformas</a>
+      <ul class="dropdown-menu dropdown-menu-dark px-2" aria-labelledby="drop">
+        <li class="dropdown-item"><a routerLinkActive="active" class="nav-link" [routerLink]="['/gamification']">Gamification</a></li>
+        <li class="dropdown-divider"></li>
+        <li class="dropdown-item"><a routerLinkActive="active" class="nav-link" [routerLink]="['/leadership']">Leadership</a></li>
+      </ul>
+        </li>
+        <li>
+          <a href="https://leadership.youleader.com/" target="_blank" routerLinkActive="active" class=" nav-link px-md-1 sesion">Iniciar sesión</a>
+        </li>
+      </ul>
+  </div>
+  </div>
+</nav>
+

@@ -1,0 +1,29 @@
+.sesion{
+  border: 1px solid #0069FA;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.sesion:hover{
+  border: 1px solid #00002C;
+}
+.active{
+  font-weight: 600;
+  font-size: 24px;
+}
+.colors{
+  fill: #0069FA !important;
+}
+
+.navbar-toggler{
+  border: 1px solid white !important;
+}
+.dropdown-menu-dark{
+  background: #0069FA !important;
+}
+.dark-nav a {
+  color: white !important;
+}
+
+.bg-menu a{
+  color:#000000 !important;
+}

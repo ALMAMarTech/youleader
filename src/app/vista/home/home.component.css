@@ -1,0 +1,660 @@
+/*Query*/
+.tam{
+  width: 75%;
+}
+.imagen1{
+  height: 216px;
+}
+.bybeto{
+  display: none;
+}
+@media screen and (min-width: 2150px) and (max-width: 2400px){
+  .dimensiones{
+    max-width: 85% !important;
+  }
+  .contenido-extra{
+    max-width: 80% !important;
+  }
+  .bybeto{
+    display: block;
+  }
+  .parra{
+    margin: 60px 45px 30px 82px !important;
+  }
+}
+@media screen and (min-width: 2500px){
+  .dimensiones{
+    margin-bottom: 6em !important;
+    max-width: 90% !important;
+  }
+  #two{
+    margin-bottom: 2.5em;
+  }
+  #primer-panel{
+    margin-bottom: 15px;
+  }
+  .tam, .action, .a{
+    font-size: 24px !important;
+  }
+  .dimension-S3{
+    max-width: 90% !important;
+  }
+  .frame{
+    height: 650px !important;
+  }
+  .contenido-extra{
+    max-width: 1750px !important;
+  }
+}
+/*1400-1598*/
+@media screen and (min-width: 1400px) and (max-width: 1700px){
+  .dimension-S1{
+    min-height: auto !important;
+    margin-left: 130px !important;
+  }
+  .bybeto{
+    display: block;
+  }
+  .letra{
+    font-size: 40px !important;
+  }
+  .acomodo{
+    width: 10%;
+    left:60% !important;
+    top: 3.9em !important;
+  }
+  .acomodo:hover{
+    transform:  translate3d(22px,370px,450px) rotate(360grad) !important;
+  }
+  #di{
+    height: 270px;
+  }
+  .parrafo1{
+    margin-top: 5em !important;
+  }
+  .parrafo{
+    margin-top: 6.3em !important;
+  }
+  .imagen{
+    height: 200px !important;
+  }
+  .font-dinamic{
+    font-size: 30px !important;
+  }
+  .di1{
+    max-width: 100% !important;
+  }
+  .hover p{
+    font-family: 'Plus Jakarta Sans Medium', serif;
+    font-size: 40px !important;
+    line-height: 15px !important;
+  }
+  .section-inicial{
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+  .section-diferenciadores{
+    margin-top: auto !important;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+  .section-video{
+    margin-top: 90px !important;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+  .dimension-S2{
+    max-width: 100% !important;
+  }
+  .dimensiones{
+    max-width: 1390px !important;
+    margin-top: auto !important;
+  }
+  .caja{
+    width: 100% !important;
+    height: 480px !important;
+  }
+  .parra{
+    margin: 20px 1.5em auto !important;
+  }
+  .dimension-S3{
+    max-width: 1390px !important;
+  }
+}
+.obscuro{
+  font-weight: bold;
+}
+.casito{
+  display: none;
+}
+
+.oculto{
+  display: none;
+}
+.oculto1{
+  display: flex;
+}
+@media screen and (min-width: 1800px) and (max-width: 1900px){
+  .dimensiones{
+    margin-top: 30px !important;
+    max-width: 1790px !important;
+  }
+  .fi{
+    height: 110px;
+  }
+  .im{
+    height: 80%;
+  }
+  .alto{
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+  }
+  .parra{
+    margin: 50px 35px 40px !important;
+  }
+  .title{
+    font-size: 28px !important;
+  }
+  .espacio{
+    margin-bottom: auto !important;
+  }
+  .caja{
+    height: 380px !important;
+  }
+  .parrafo{
+    margin-top: 3.6em !important;
+  }
+  .parrafo1{
+    margin-top: 2em !important;
+  }
+  .letra{
+    font-size: 45px !important;
+  }
+  .section-contacto{
+    margin-top: auto !important;
+  }
+  .dimension-S1{
+    min-height: auto !important;
+    max-width: 1790px !important;
+  }
+  .section-inicial{
+    margin-top: -5em !important;
+    margin-left: 130px !important;
+    margin-right: 130px !important;
+  }
+  .section-diferenciadores{
+    margin-top: 3em !important;
+    margin-left: 130px !important;
+    margin-right: 130px !important;
+  }
+  .section-video{
+    margin-right: 130px !important;
+    margin-left: 130px !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+  .dimension-S1{
+    min-height: auto !important;
+    margin-left: 130px !important;
+  }
+  .font-section{
+    font-size: 58px !important;
+  }
+  #tercer-panel{
+    margin-top: 3em;
+  }
+  .imagen{
+    height: 178px !important;
+  }
+  #primer-panel{
+    margin-top: 22px;
+  }
+  .di1{
+    max-width: 100% !important;
+  }
+  .conoce{
+    padding-top: 10em !important;
+  }
+  .hover p{
+    font-family: 'Plus Jakarta Sans Medium', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px !important;
+    line-height: 81px;
+    color: #FFFFFF;
+  }
+  .section-inicial{
+    margin-left: 110px !important;
+    margin-right: 110px !important;
+  }
+  .section-diferenciadores{
+    margin-top: 130px !important;
+    margin-left: 110px !important;
+    margin-right: 110px !important;
+  }
+  .section-video{
+    margin-top: 90px !important;
+    margin-left: 110px !important;
+    margin-right: 110px !important;
+  }
+  .dimension-S3{
+    max-width: 1120px !important;
+  }
+  .dimensiones{
+    margin-top: auto !important;
+    max-width: 1120px !important;
+  }
+  .caja{
+    height: 438px !important;
+    width: 100% !important;
+  }
+  .parra{
+    margin: 30px 8px !important;
+  }
+  .parrafo{
+    margin-top: 100px !important;
+  }
+  .parrafo1{
+    margin-top: 5em;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 1199px) {
+.tam{
+  width: 100% !important;
+}
+  .dimension-S1{
+    margin-left: 80px !important;
+    margin-bottom: 70px;
+    min-height: auto !important;
+  }
+  .imagen{
+    height: 130px !important;
+  }
+  .section-inicial{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .dimension-S3{
+    max-width: 960px !important;
+  }
+  .dimensiones{
+    margin-top: auto !important;
+    max-width: 960px !important;
+  }
+  .letra{
+    font-size: 35px !important;
+  }
+  .parra{
+    margin: 25px  auto  !important;
+  }
+  #primer-panel{
+  margin-top: 24px !important;
+  }
+  #tercer-panel{
+    margin-top: 2em !important;
+  }
+  .section-diferenciadores{
+    margin-top: 120px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .section-video{
+    margin-top: 120px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .di1{
+    max-width: 75% !important;
+    text-align: center !important;
+  }
+  .hover p{
+    font-family: 'Plus Jakarta Sans Medium', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px !important;
+    line-height: 81px;
+    color: #FFFFFF;
+  }
+  .hover{
+    padding: 1px 20px !important;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 749px){
+  .dimension-S1{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    min-height: auto !important;
+    max-width: 100% !important;
+  }
+  .fuente{
+    font-size: 18px!important;
+  }
+  .direction{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+  }
+ .casito{
+   display: flex;
+   top: -2em;
+   left: 5em;
+ }
+.oculto1{
+  display: none;
+}
+.oculto{
+  display: flex;
+}
+  .orden{
+    order: 5 !important;
+  }
+  .orden2{
+    order: 1 !important;
+  }
+  .orden3{
+    order: 7 !important;
+  }
+  #con{
+    text-align: center !important;
+  }
+  .imagen{
+    height: 350px !important;
+  }
+  .tam{
+    margin: 10px 10px auto !important;
+    width: 100% !important;
+  }
+  .section-inicial{
+    margin-top: 2em !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .dimensiones{
+    margin-top: auto !important;
+    max-width: 100% !important;
+  }
+  .parra{
+    margin: 20px 30px auto !important;
+  }
+  .caja{
+    opacity: 0.95 !important;
+    height: 480px !important;
+    margin-bottom: 25px !important;
+    margin-top: 20px !important;
+  }
+  .acomodo{
+    display: none;
+  }
+  .section-diferenciadores{
+    margin:auto !important;
+  }
+  .dimension-S3{
+    max-width: 100% !important;
+  }
+  .di1{
+    max-width: 50% !important;
+  }
+  .section-video{
+    margin: 30px auto 20px !important;
+  }
+.end{
+  text-align: left !important;
+}
+.section-casos{
+  margin-right: auto !important;
+  margin-left:  auto !important;
+}
+  .hover p{
+    font-family: 'Plus Jakarta Sans Medium', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px !important;
+    line-height: 81px;
+    color: #FFFFFF;
+  }
+  .hover{
+    padding: 1px 20px !important;
+  }
+
+  .frame{
+    text-align: center !important;
+    height: 250px !important;
+  }
+  .hover span{
+    font-family: 'Plus Jakarta Sans Medium', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+  }
+  .title{
+    font-size: 29px !important;
+  }
+}
+/*Fin query*/
+
+/*Dimensiones margin*/
+.dimensiones{
+  margin-top: -12em ;
+  max-width: 1800px ;
+}
+.end{
+  text-align: right;
+}
+.cta{
+  margin-top: 79px;
+}
+
+.section-diferenciadores{
+  margin-top: 214px;
+  margin-left: 159px;
+  margin-right: 159px;
+}
+.section-video{
+  margin-top: 150px;
+  margin-left: 159px;
+  margin-right: 159px;
+}
+.section-casos{
+  margin: 150px 159px;
+}
+.section-inicial{
+  margin-left: 196px;
+  margin-right: 143px;
+}
+.dimension-S2{
+  margin-right: 0 !important;
+  margin-left: 2em !important;
+}
+.dimension-x{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.imagen{
+  height: 375px;
+}
+.iman{
+  width: 30%;
+}
+.di1{
+  max-width: 140%;
+}
+.espacio{
+  margin-bottom: 28px;
+}
+.hover{
+  width: 100%;
+  height: 30%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.83) 100%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  border-radius: 15px;
+  transition: 0.5s;
+  padding: 10px 20px;
+  text-align: left;
+}
+#prueba{
+  margin-left: 161px;
+  margin-right: 162px;
+}
+.slider-grande{
+  transform: scale(1.1);
+}
+
+.rem{
+  padding-right: 1.5rem !important;
+  transform: scale(30%);
+}
+.margin{
+  margin-top: 4rem;
+}
+.hover p{
+  font-family: 'Plus Jakarta Sans Medium', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 41px ;
+  color: #FFFFFF;
+}
+.hover span{
+  font-family: 'Plus Jakarta Sans Medium', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+.hover:hover{
+  opacity: 1;
+  top: 70%;
+  cursor: pointer;
+}
+.dimension-S3{
+  max-width: 1800px;
+}
+.dimension-S1{
+  margin-left: 155px;
+  min-height: 100vh;
+}
+.caja-ini{
+  margin-top: 100px!important;
+}
+.dimension-s4{
+  max-width: 100% !important;
+}
+.frame{
+  width: 100%;
+  height: 500px;
+  border-radius: 15px;
+}
+.section-quienes{
+  margin-top: 90px;
+}
+.section-contacto{
+  margin-top: 120px;
+}
+.conoce{
+  padding-top: 8em;
+}
+.cta-casos{
+  z-index: -10; top:-5em; right: -10em;
+}
+.cta-casos:hover{
+  fill: #0069FA !important;
+  stroke: #0069FA !important;
+}
+/*fin dimensiones*/
+.contacto{
+  background-image: url("src/assets/img/fondo-contacto.png");
+  background-size: 100% 100%;
+}
+.parrafo{
+  margin-top: 148px;
+}
+.parrafo1{
+  margin-top: 115px;
+}
+.parra{
+  margin: 68px 57px 35px 82px;
+}
+.caja-contacto{
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 52px 52px 0px 0px;
+}
+input{
+  background: #F7F9FF;
+  border: 1px solid #E3E3E3;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.cta-contact{
+  border: 1px solid #0069FA;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+.caja{
+  background: #FFFFFF;
+  opacity: 0.85;
+  height: 544px;
+  width: 95%;
+  border: 1px solid #F2F2F2;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(9px);
+  border-radius: 20px;
+}
+.boton{
+  background: #0069FA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+}
+/*VALIDACIONES*/
+.validation{
+color: #fd4444;
+}
+@keyframes shake {
+  0%,100%{transform: translateX(0);}
+  25%{transform: translateX(8px);}
+  75%{transform: translateX(-8px);}
+}
+input:valid{border: 3px solid #0069FA;background: #F7F9FF;}
+input:invalid{
+  border: 1px solid #E3E3E3;}
+input:invalid ~ .validation{opacity: 1;}
+input:invalid, input:invalid ~ .validation{
+  animation: shake 0.1365s 0s 3;
+}
+/*FIN VALIDACIONES*/
+/*Animaciones*/
+
+.alto{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+ }
+.f{
+  background:  rgba(0,0,0,0.568);
+  height: 100%;
+}
+.acomodo{
+  top:3.7em;
+  left: 55%;
+  transition: all 2500ms cubic-bezier(0.805, 0.120, 0.975, 0.565); /* custom */
+  transition-timing-function: cubic-bezier(0.805, 0.120, 0.975, 0.565); /* custom */
+}
+.acomodo:hover{
+  transition: transform 1s 0s cubic-bezier(0.050, 0.090, 0.960, 0.050);
+  -webkit-transform: rotate(360grad);
+  transform:  translate3d(30px,520px,450px) rotate(360grad);
+}

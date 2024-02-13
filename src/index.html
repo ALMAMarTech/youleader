@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Youleader</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Global site tag (gtag.js) - Google Analytics GA4 -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3CSJ65EDPB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3CSJ65EDPB');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics UN-->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-217225787-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-217225787-1');
+</script>
+<script>
+  window.addEventListener("scroll", function () {
+    let nav = document.querySelector("#nav");
+    if (window.pageYOffset >= 80) {
+      nav.classList.add("bg-menu", "shadow");
+    } else {
+      nav.classList.remove("bg-menu", "shadow");
+    }
+  });
+
+  window.addEventListener("scroll", function (){
+    let brand = document.querySelector("#brand");
+    if(window.pageYOffset > 400){
+    brand.classList.remove("d-none");
+    }else{
+      brand.classList.add("d-none");
+    }
+  });
+</script>
+  <app-root></app-root>
+</body>
+</html>

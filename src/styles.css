@@ -1,0 +1,280 @@
+/* You can add global styles to this file, and also import other style files */
+ /*Query*/
+@media screen and (min-width: 1901px) {
+  .owl-dots .owl-dot span {
+    width: 260px !important;
+  }
+  .tx{
+    font-size: 28px !important;
+  }
+}
+@media screen and (min-width: 2500px){
+  .title{
+    font-size: 40px !important;
+  }
+  .fuente, .font-menu, .font-menu-wh{
+    font-size: 24px !important;
+  }
+  .font-section{
+    font-size: 68px !important;
+  }
+  .font-services{
+    font-size: 50px !important;
+  }
+}
+@media screen and (min-width: 1420px) and (max-width: 1680px) {
+  .font-section{
+    font-size: 44px !important;
+  }
+}
+@media screen and (min-width: 1400px) and  (max-width: 1900px){
+  .owl-dots .owl-dot span {
+    width: 200px!important;
+    height: 5px!important;
+    margin: 25px 5px!important;
+  }
+  .title{
+    font-size: 32px !important;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px){
+  .title{
+    font-size: 30px !important;
+  }
+  .font-section{
+    font-size: 54px !important;
+  }
+  .owl-dots .owl-dot span {
+    width: 140px!important;
+    height: 5px!important;
+    margin: 25px 5px!important;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 1199px) {
+  .title{
+    font-size: 26px !important;
+  }
+  .owl-dots .owl-dot span {
+    width: 100px!important;
+    height: 5px!important;
+    margin: 25px 5px!important;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 749px){
+  .font-section{
+    font-size: 36px !important;
+  }
+  .owl-dots .owl-dot span {
+    width: 70px!important;
+    height: 5px!important;
+    margin: 25px 5px!important;
+  }
+  .owl-theme .owl-dots, .owl-theme .owl-nav {
+    margin-left: 0 !important;
+  }
+  .font-dinamic{
+    font-size: 18px !important;
+  }
+  .fuente{
+    font-size: 18px !important;
+  }
+}
+
+ /**/
+  @font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url("assets/fonts/PlusJakartaSans-Regular.ttf");
+  }
+  @font-face {
+  font-family: 'Plus Jakarta Sans Medium';
+    src: url("assets/fonts/PlusJakartaSans-Medium.ttf");
+  }
+@font-face {
+  font-family: 'Plus Jakarta Sans SemiBold';
+  src: url("assets/fonts/PlusJakartaSans-SemiBold.ttf");
+}
+  @font-face {
+  font-family: 'Plus Jakarta Sans Light';
+    src: url("assets/fonts/PlusJakartaSans-Light.ttf");
+  }
+ @font-face {
+   font-family: 'OpenSans-Regular';
+   src: url("assets/fonts/OpenSans-Regular.ttf");
+ }
+@font-face {
+  font-family: 'OpenSans-Medium';
+  src: url("assets/fonts/OpenSans-Medium.ttf");
+}
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url("assets/fonts/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url("assets/fonts/OpenSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("assets/fonts/OpenSans-Bold.ttf");
+}
+
+*{
+  font-family: 'OpenSans-Light', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 33px;
+  color: #000000;
+}
+.font-resaltado{
+  font-family: 'OpenSans-Bold', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 33px;
+  color: #000000;
+}
+.font-menu{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 37px;
+  color: #000000;
+}
+.font-menu-wh{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 37px;
+  color: #ffffff !important;
+}
+.font-services{
+  font-family: 'Plus Jakarta Sans SemiBold', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 112.18%;
+  color: #000000;
+}
+.font-title{
+  font-family: 'Plus Jakarta Sans Medium', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 112.18%;
+  color: #000000;
+}
+.font-dinamic{
+  font-family: 'Plus Jakarta Sans Medium', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 112.18%;
+  color: #0069FA;
+}
+.title{
+  font-family: 'Plus Jakarta Sans', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 112.18%;
+  color: #000000;
+}
+.font-action{
+  font-family: 'Plus Jakarta Sans Medium', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px !important;
+  line-height: 112.18%;
+  cursor: pointer;
+  /* or 40px */
+  color: #000000;
+}
+.font-action:hover{
+  color: #0069FA;
+}
+.action{
+  color: #00002C;
+}
+.action:hover{
+  color: #0069FA;
+}
+.font-dinamico{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 41px;
+  color: #000000;
+}
+.font-section{
+  /*fuente de secciones mayores*/
+  font-family: 'Plus Jakarta Sans Medium', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 112.18%;
+  color: #000000;
+}
+.font-encabezado{
+  font-family: 'Plus Jakarta Sans', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 112.18%;
+  color: #000000;
+}
+.font-cta{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+body{
+background: white;
+}
+.font-service-parrafo{
+  font-family: 'OpenSans-SemiBold', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #000000;
+}
+.bg-menu {
+  background: #ffffff!important;
+}
+/*Carousel*/
+.owl-prev,
+.owl-next {
+  position: absolute !important;
+  background: none !important;
+  margin:  10px 0 !important;
+  color: #0069FA !important;
+}
+.color{
+  color: #0069FA !important;
+}
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+  text-align: center;
+  margin-left: 150px;
+  -webkit-tap-highlight-color: transparent;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: linear-gradient(0deg, #0069FA, #0069FA), #EDEDED !important;
+}
+.owl-prev {
+  left: 30px !important;
+
+}
+.owl-theme .owl-next{
+  left: 90px !important;
+}
+.owl-dots .owl-dot span {
+  width: 260px;
+  height: 5px!important;
+  margin: 25px 5px!important;
+}

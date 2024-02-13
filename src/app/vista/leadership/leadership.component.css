@@ -1,0 +1,140 @@
+/*Query*/
+@media screen and (min-width: 2150px) {
+  .dimension-xl{
+    min-width: 1700px !important;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1900px){
+.first-section{
+  margin-left: 139px !important;
+  margin-right: 139px !important;
+}
+  .second-section{
+    margin-right: 139px !important;
+    margin-left: 139px !important;
+  }
+  .contenedor{
+    max-width: 1320px !important;
+  }
+  .font-section{
+    font-size: 30px !important;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 1199px){
+  .first-section{
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+  .second-section{
+    margin-right: 100px !important;
+    margin-left: 100px !important;
+  }
+  .header{
+    min-height: 30vh !important;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 749px){
+  .first-section{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .second-section{
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .header{
+    min-height: 38vh !important;
+  }
+  .oculto1{
+    display: none;
+  }
+  .oculto{
+    display: flex;
+  }
+  .frame{
+    margin-top: 70px;
+    height: auto !important;
+    margin-bottom: 70px;
+  }
+}
+/*Fin query*/
+
+/*Dimensiones*/
+.first-section{
+  margin-top: 2em;
+  margin-left: 159px;
+  margin-right: 159px;
+}
+.second-section{
+  margin-top: auto;
+  margin-left: 159px;
+  margin-right: 159px;
+
+}
+.contenedor{
+  max-width: 1800px;
+}
+/*Fin dimensiones*/
+.header{
+  background-image: url("src/assets/img/productos/productos.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 47vh;
+}
+.height{
+  right: 0; top:3em;
+  height: 300px !important;
+}
+.font-section{
+  font-family: 'Plus Jakarta Sans Medium', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 112.18%;
+  /* or 72px */
+  text-align: center;
+  color: #FFFFFF;
+}
+.contacto{
+  background-image: url("src/assets/img/fondo-contacto.png");
+  background-size: 100% 100%;
+}
+.caja-contacto{
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 52px 52px 0px 0px;
+}
+input{
+  background: #F7F9FF;
+  border: 1px solid #E3E3E3;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.boton{
+  background: #0069FA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.frame{
+  width: 100%;
+  height: 432px;
+  border-radius: 50px;
+}
+.espacio{
+  margin-bottom: 28px;
+}
+.oculto{
+  display: none;
+}
+.oculto1{
+  display: flex;
+}

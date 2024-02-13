@@ -1,0 +1,156 @@
+/*Query*/
+@media screen and (min-width: 2150px) {
+  .dimension-xl{
+    min-width: 1700px !important;
+  }
+}
+@media screen and (min-width: 1400px) and (max-width: 1900px){
+  .first-section{
+    margin-left: 139px !important;
+    margin-right: 139px !important;
+  }
+  .second-section{
+    margin-right: 139px !important;
+    margin-left: 139px !important;
+  }
+  .contenedor{
+    max-width: 1320px !important;
+  }
+  .font-section{
+    font-size: 30px !important;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 1199px){
+  .first-section{
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+  }
+  .second-section{
+    margin-right: 100px !important;
+    margin-left: 100px !important;
+  }
+  .header{
+    min-height: 30vh !important;
+  }
+  .frame{
+    height: auto !important;
+  }
+  .gam{
+    margin-top: 2em;
+  }
+}
+.oculto{
+  display: none;
+}
+.oculto1{
+  display: flex;
+}
+.casito{
+  display: none;
+}
+.end{
+  text-align: right;
+}
+@media screen and (min-width: 300px) and (max-width: 749px){
+  .first-section{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 70px !important;
+  }
+  .end{
+    text-align: left !important;
+  }
+  .casito{
+    display: flex;
+    top: -2em;
+    left: 1em;
+  }
+  .gam{
+    margin-top: 20px !important;
+  }
+  .oculto1{
+    display: none;
+  }
+  .oculto{
+    display: flex;
+  }
+  .frame{
+    height: auto !important;
+  }
+  .second-section{
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .header{
+    min-height: 38vh !important;
+  }
+}
+/*Fin query*/
+
+/*Dimensiones*/
+.contenedor{
+  max-width: 1800px;
+}
+.first-section{
+  margin: 91px 159px 159px 90px;
+}
+.image{
+  height: 350px !important;
+}
+/*Fin dimensiones*/
+.header{
+  background-image: url("src/assets/img/productos/productos.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 47vh;
+}
+.frame{
+  width: 100%;
+  height: 432px;
+  border-radius: 50px;
+}
+.font-section{
+  font-family: 'Plus Jakarta Sans Medium', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 112.18%;
+  /* or 72px */
+  text-align: center;
+  color: #FFFFFF;
+}
+.contacto{
+  background-image: url("src/assets/img/fondo-contacto.png");
+  background-size: 100% 100%;
+}
+.caja-contacto{
+  background: #FFFFFF;
+  border: 1px solid #EDEDED;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 52px 52px 0px 0px;
+}
+input{
+  background: #F7F9FF;
+  border: 1px solid #E3E3E3;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.boton{
+  background: #0069FA;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.espacio{
+  margin-bottom: 28px;
+}
+.cta-casos{
+  z-index: -10; top:-4em; right: -10em;
+}
